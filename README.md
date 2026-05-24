@@ -10,7 +10,7 @@ Autores: Unai Lema y Sebastián Luna
 - Una primera página indicando el nombre de los dos autores de la práctica.
 - Los códigos de AMPL de la formulación del dual y primal
 - Para cada Dataset (generado con el generador y dataset real):
-  - Los resultados obtenidos en la optimización (indicar que solver hemos udaso, tiempo de cálculo, iteraciones, etc)
+  - Los resultados obtenidos en la optimización (indicar que solver hemos usado, tiempo de cálculo, iteraciones, etc)
   - Comprobación  que a partir de la solución dual recuperamos el plano del primal
   - Accuracy que obtenemos (usando otro conjunto de datos de test)
   - Si hemos probado diversos valores de nu, o datasets de tamaños diferentes, dar también:
