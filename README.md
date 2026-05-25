@@ -34,9 +34,10 @@ Autores: Unai Lema y Sebastián Luna
 
 Comando:
 
-$ ./gensvmdat points_x.txt x seed
+$ ./gensvmdat points_x.dat x seed
 
 Dónde:
 - `x` es el número de puntos
 - `seed` es la semilla. Utilizaremos 77214914
 
+El archivo `points_x.dat` generado contiene unos * en los vectores que se clasificarán incorrectamente, se tiene que quitar este *.
