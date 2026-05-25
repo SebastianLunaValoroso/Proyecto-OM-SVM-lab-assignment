@@ -29,3 +29,14 @@ Autores: Unai Lema y Sebastián Luna
 - Para todos los dataset probados, calcular el hiperplano separador del modelo SVM del dual y comprobar que coincide con el del  modelo SVM del primal.
 - Encontrar un dataset NO SEPARABLE linealmente y clasificarlo con nuetra implementación del dual SVM con kernel RBF o Gaussiano (se pueden generar un dataset no separable linealmente usando la función `sklearn.datasets.make_swiss_roll()` del paquete de python `sklearn`)
 - Comprueba la accuracy del SVM resultante
+
+## Generar datos con gensvmdat (correspondiente ejecutable de linux, mac o windows)
+
+Comando:
+
+$ ./gensvmdat points_x.txt x seed
+
+Dónde:
+- `x` es el número de puntos
+- `seed` es la semilla. Utilizaremos 77214914
+
