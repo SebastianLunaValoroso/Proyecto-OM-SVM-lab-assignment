@@ -1,5 +1,12 @@
 #Codigo de Python
 from yogi import Yogi
+from amplpy import AMPL #type:ignore
+import re
+import numpy as np
+import pandas as pd #type:ignore
+
+#np y pd anaden mucho overhead
+
 
 def isfloat(s: str) -> bool:
     """Devuelve True si s es un float"""
@@ -11,11 +18,11 @@ def isfloat(s: str) -> bool:
 
 
 def generator_preprocess(file:str,dim_x:int, dim_y:int=-1)->tuple[list[list[float]],list[float]]:
-    """Elimina los '*' y prepara los datos de file para la creacion de un .dat para los modelos svm de AMPL.
+    """Elimina los '*' y separa los puntos en una matrix x (atributos de los puntos) y un vector y (clases de los puntos) de file.
 
     Devuelve:
     - una matriz x de dimensiones m x dim_x
-    - un vector y de dimensiones dim_i x 1
+    - un vector y de dimensiones 1 x m
     
     Prec: file debe haber sido generado con gensvmdat
 
@@ -57,16 +64,111 @@ def generator_preprocess(file:str,dim_x:int, dim_y:int=-1)->tuple[list[list[floa
 
 
 
+def post_process_time_raw(time_raw:str)->float:
+    """Utiliza una regular expression para encontrar el tiempo y lo devuelve. Devuelve -1. en caso de error"""
+    sol = re.search(r"Solver time = ([0-9.]+)s", time_raw)
+    if sol is not None and isfloat(sol.group(1)):
+        return float(sol.group(1))
+    return -1.
 
 
-def main()->None:
-    x,y = generator_preprocess('points_1000.dat',4)
-    dim_y = len(y)
-    if dim_y > 0:
-        dim_x = len(x[0])
-        for i in range(dim_y):
-            for j in range(dim_x):
-                print(x[i][j],end=" ")
-            print(y[i])
 
-main()
+def post_process_primal_solve(w_raw:list[tuple[int,float]],gamma:float,s_raw:list[tuple[int,float]],primal_obj:float,time_raw:str)->tuple[list[float],float,list[float],float,float]:
+    """Devuelve (w,gamma,s,primal_obj,time) en un formato mas adecuado"""
+    w:list[float] = [num for i, num in w_raw]
+    s:list[float] = [num for i, num in s_raw]
+    time:float = post_process_time_raw(time_raw)
+    #eventualmente podriamos crear una regular expression para conseguir el valor de la func objetivo de cplex, pero aqui nos quedamos con primal_obj
+    return (w,gamma,s,primal_obj,time)
+
+
+
+def post_process_dual_solve(lamb_raw:list[tuple[int,float]],primal_obj:float,time_raw:str)->tuple[list[float],float,float]:
+    """Devuelve (lamb,primal_obj,time) en un formato mas adecuado"""
+    lamb:list[float] = [num for i, num in lamb_raw]
+    time:float = post_process_time_raw(time_raw)
+    return (lamb,primal_obj,time)
+
+
+
+def primal_solve(x:list[list[float]], y:list[float], modelo:str, nu:float)->tuple[list[float],float,list[float],float,float]: #modificar lo de None
+    """Resuelve el Primal SVM con los datos de entrada y devuelve la solucion
+    
+    Solver: CPLEX
+
+    Prec: len(x) > 0 y len(y) > 0
+
+    :param: modelo: Tiene que ser un archivo .mod
+    """
+    m:int = len(y)
+    n:int = len(x[0])
+
+    ampl = AMPL()
+    ampl.read(modelo)
+
+    # Asignacion de los datos
+    ampl.param["n"] = n
+    ampl.param["m"] = m
+    ampl.param["nu"] = nu
+
+    ampl.param["y"] = {i: y[i-1] for i in range(1,m+1)}
+    ampl.param["x"] = {
+        (i,j): x[i-1][j-1]
+        for i in range(1, m+1)
+        for j in range(1, n+1)
+
+    }
+
+    #Solve
+    ampl.option["solver"] = "cplex"
+    ampl.option["cplex_options"] = "timing=1" #si usamos cplex
+    ampl.solve()
+    
+
+    #Recuperacion de la solucion
+    time_raw:str = ampl.getOutput("solve;") #para capturar la salida de solve, como el tiempo
+    primal_obj:float = ampl.get_objective("primal_svm").value() #es diferente de lo que meustra cplex por pantalla
+    w = ampl.get_variable("w").to_list()
+    gamma = ampl.get_variable("gamma").value()
+    s = ampl.get_variable("s").to_list()
+
+    #Post Processing
+    return post_process_primal_solve(w,gamma,s,primal_obj,time_raw)
+
+
+
+def dual_solve(k:np.matrix,y:list[float], modelo:str, nu:float)->tuple[list[float],float,float]:
+    m:int = len(y)
+
+    ampl = AMPL()
+    ampl.read(modelo)
+
+    # Asignacion de los datos
+    ampl.param["m"] = m
+    ampl.param["nu"] = nu
+
+    ampl.param["y"] = {i: y[i-1] for i in range(1,m+1)}
+
+    k_df = pd.DataFrame(
+        k,
+        columns= [i for i in range(1,m+1)],
+        index= [i for i in range(1,m+1)]
+    )
+    ampl.get_parameter("K").set_values(k_df)
+
+    #Solve
+    ampl.option["solver"] = "cplex"
+    ampl.option["cplex_options"] = "timing=1" #si usamos cplex
+    ampl.solve()
+
+    #Recuperacion de la solucion
+    time_raw:str = ampl.getOutput("solve;") #para capturar la salida de solve, como el tiempo
+    primal_obj:float = ampl.get_objective("dual_svm").value() #es diferente de lo que meustra cplex por pantalla
+    lamb = ampl.get_variable("lambda").to_list()
+
+    #Post Processing
+    return post_process_dual_solve(lamb,primal_obj,time_raw)
+
+
+
+
