@@ -14,6 +14,6 @@ var s {M} >= 0;
 
 #Formulacion Primal
 
-minimize primal_svm: sum {j in N} (w[j] * w[j]) - nu * sum {i in M} (s[i]);
+minimize primal_svm: 0.5 * sum {j in N} (w[j] * w[j]) - nu * sum {i in M} (s[i]);
 
 subj to constr {i in M}: y[i] * (sum {j in N} (w[j] * x[i,j]) + gamma) + s[i] >= 1;

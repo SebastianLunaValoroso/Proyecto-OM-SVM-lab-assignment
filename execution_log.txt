@@ -1,0 +1,4731 @@
+==============Iteración 1/3==============
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.824248144e+20
+0 simplex iterations
+32 barrier iterations
+Setup time = 0.002053s
+Solver time = 0.006893s
+Total time = 0.008965s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 2E+20           5E+18         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 0.6849190499
+0 simplex iterations
+7 barrier iterations
+Setup time = 0.005601s
+Solver time = 0.003794s
+Total time = 0.009420s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 0.6818568405
+0 simplex iterations
+7 barrier iterations
+Setup time = 0.005440s
+Solver time = 0.004647s
+Total time = 0.010102s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.270752816e+20
+0 simplex iterations
+20 barrier iterations
+Setup time = 0.002626s
+Solver time = 0.005394s
+Total time = 0.008044s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 1E+20           4E+17         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 5.524168339
+0 simplex iterations
+9 barrier iterations
+Setup time = 0.005640s
+Solver time = 0.002976s
+Total time = 0.008631s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 5.194875651
+0 simplex iterations
+10 barrier iterations
+Setup time = 0.005511s
+Solver time = 0.005581s
+Total time = 0.011106s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 0
+0 simplex iterations
+Setup time = 0.002600s
+Solver time = 0.001958s
+Total time = 0.004575s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+Solution determined by presolve;
+objective dual_svm = 0.
+Solution determined by presolve;
+objective dual_svm = 0.
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -3.149279698e+20
+0 simplex iterations
+14 barrier iterations
+Setup time = 0.002609s
+Solver time = 0.004730s
+Total time = 0.007358s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 3E+20           5E+16         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 28.90730047
+0 simplex iterations
+11 barrier iterations
+Setup time = 0.005619s
+Solver time = 0.003200s
+Total time = 0.008833s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 22.38666916
+0 simplex iterations
+11 barrier iterations
+Setup time = 0.005429s
+Solver time = 0.006096s
+Total time = 0.011541s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.431413557e+20
+0 simplex iterations
+19 barrier iterations
+Setup time = 0.002645s
+Solver time = 0.004924s
+Total time = 0.007588s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 1E+20           2E+15         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 160.178008
+0 simplex iterations
+14 barrier iterations
+Setup time = 0.005543s
+Solver time = 0.003569s
+Total time = 0.009126s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 87.06833286
+0 simplex iterations
+9 barrier iterations
+Setup time = 0.005829s
+Solver time = 0.005673s
+Total time = 0.011517s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -2.785530159e+20
+0 simplex iterations
+13 barrier iterations
+Setup time = 0.002551s
+Solver time = 0.004210s
+Total time = 0.006781s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 3E+20           2E+14         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 1194.188534
+0 simplex iterations
+13 barrier iterations
+Setup time = 0.005557s
+Solver time = 0.003401s
+Total time = 0.008972s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 217.7980298
+0 simplex iterations
+11 barrier iterations
+Setup time = 0.005713s
+Solver time = 0.006051s
+Total time = 0.011778s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.37660694e+20
+0 simplex iterations
+33 barrier iterations
+Setup time = 0.003974s
+Solver time = 0.021075s
+Total time = 0.025069s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 1E+20           5E+18         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 5.754034798
+0 simplex iterations
+14 barrier iterations
+Setup time = 0.657097s
+Solver time = 0.017872s
+Total time = 0.674996s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 5.601526203
+0 simplex iterations
+16 barrier iterations
+Setup time = 0.620530s
+Solver time = 0.268617s
+Total time = 0.889171s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.007709587e+20
+0 simplex iterations
+28 barrier iterations
+Setup time = 0.004693s
+Solver time = 0.024757s
+Total time = 0.029481s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 1E+20           3E+17         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 34.11989035
+0 simplex iterations
+14 barrier iterations
+Setup time = 0.630564s
+Solver time = 0.015220s
+Total time = 0.645802s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 29.95082813
+0 simplex iterations
+14 barrier iterations
+Setup time = 0.613031s
+Solver time = 0.246548s
+Total time = 0.859601s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 0
+0 simplex iterations
+Setup time = 0.003247s
+Solver time = 0.001850s
+Total time = 0.005114s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+Solution determined by presolve;
+objective dual_svm = 0.
+Solution determined by presolve;
+objective dual_svm = 0.
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.126241938e+20
+0 simplex iterations
+19 barrier iterations
+Setup time = 0.003105s
+Solver time = 0.013217s
+Total time = 0.016341s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 1E+20           1E+16         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 228.9881577
+0 simplex iterations
+19 barrier iterations
+Setup time = 0.612024s
+Solver time = 0.016499s
+Total time = 0.628540s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 187.6752131
+0 simplex iterations
+17 barrier iterations
+Setup time = 0.616229s
+Solver time = 0.274886s
+Total time = 0.891140s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.227955325e+20
+0 simplex iterations
+21 barrier iterations
+Setup time = 0.003172s
+Solver time = 0.014340s
+Total time = 0.017532s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 1E+20           4E+14         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 2004.99725
+0 simplex iterations
+24 barrier iterations
+Setup time = 0.612595s
+Solver time = 0.018191s
+Total time = 0.630805s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 1401.753126
+0 simplex iterations
+16 barrier iterations
+Setup time = 0.627247s
+Solver time = 0.270780s
+Total time = 0.898052s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.977422818e+21
+0 simplex iterations
+27 barrier iterations
+Setup time = 0.003076s
+Solver time = 0.018044s
+Total time = 0.021142s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 2E+21           5E+14         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 19659.80719
+0 simplex iterations
+25 barrier iterations
+Setup time = 0.612773s
+Solver time = 0.019004s
+Total time = 0.631796s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 10274.32609
+0 simplex iterations
+16 barrier iterations
+Setup time = 0.606220s
+Solver time = 0.267414s
+Total time = 0.873661s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.330486774e+20
+0 simplex iterations
+22 barrier iterations
+Setup time = 0.004336s
+Solver time = 0.017217s
+Total time = 0.021572s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 1E+20           2E+18         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 10.25777333
+0 simplex iterations
+12 barrier iterations
+Setup time = 2.648423s
+Solver time = 0.091973s
+Total time = 2.740420s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 9.661592492
+0 simplex iterations
+12 barrier iterations
+Setup time = 2.721270s
+Solver time = 1.363891s
+Total time = 4.085190s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.229333748e+20
+0 simplex iterations
+20 barrier iterations
+Setup time = 0.004260s
+Solver time = 0.018381s
+Total time = 0.022663s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 1E+20           1E+17         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 60.91919701
+0 simplex iterations
+17 barrier iterations
+Setup time = 2.854747s
+Solver time = 0.102017s
+Total time = 2.956788s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 52.78699487
+0 simplex iterations
+17 barrier iterations
+Setup time = 2.721204s
+Solver time = 1.548751s
+Total time = 4.269982s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 0
+0 simplex iterations
+Setup time = 0.004525s
+Solver time = 0.002159s
+Total time = 0.006699s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+Solution determined by presolve;
+objective dual_svm = 0.
+Solution determined by presolve;
+objective dual_svm = 0.
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -2.117067054e+20
+0 simplex iterations
+23 barrier iterations
+Setup time = 0.004268s
+Solver time = 0.020359s
+Total time = 0.024646s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 2E+20           7E+15         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 435.8439358
+0 simplex iterations
+25 barrier iterations
+Setup time = 2.558622s
+Solver time = 0.083007s
+Total time = 2.641650s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 353.3703081
+0 simplex iterations
+22 barrier iterations
+Setup time = 2.614487s
+Solver time = 1.723931s
+Total time = 4.338442s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -2.323090939e+20
+0 simplex iterations
+23 barrier iterations
+Setup time = 0.004583s
+Solver time = 0.018558s
+Total time = 0.023160s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 2E+20           4E+14         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 3964.07432
+0 simplex iterations
+23 barrier iterations
+Setup time = 2.556690s
+Solver time = 0.089957s
+Total time = 2.646667s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 2795.308393
+0 simplex iterations
+19 barrier iterations
+Setup time = 2.591221s
+Solver time = 1.608315s
+Total time = 4.199560s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -8.993137303e+20
+0 simplex iterations
+29 barrier iterations
+Setup time = 0.005814s
+Solver time = 0.024873s
+Total time = 0.030711s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 9E+20           1E+14         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 39147.25439
+0 simplex iterations
+27 barrier iterations
+Setup time = 2.567580s
+Solver time = 0.083685s
+Total time = 2.651289s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 23380.94632
+0 simplex iterations
+18 barrier iterations
+Setup time = 2.577367s
+Solver time = 1.546177s
+Total time = 4.123569s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.07039089e+21
+0 simplex iterations
+8 barrier iterations
+Setup time = 0.003587s
+Solver time = 0.014188s
+Total time = 0.017794s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 1E+21           2E+15         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 0.3557769408
+0 simplex iterations
+27 barrier iterations
+Setup time = 0.178514s
+Solver time = 0.022835s
+Total time = 0.201367s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 2.482655618
+0 simplex iterations
+11 barrier iterations
+Setup time = 0.180976s
+Solver time = 0.059137s
+Total time = 0.240134s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -7.232737414e+26
+0 simplex iterations
+9 barrier iterations
+Setup time = 0.003634s
+Solver time = 0.015422s
+Total time = 0.019083s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 7E+26           9E+19         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 3.229115882
+0 simplex iterations
+23 barrier iterations
+Setup time = 0.180281s
+Solver time = 0.020597s
+Total time = 0.200895s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 13.20697988
+0 simplex iterations
+17 barrier iterations
+Setup time = 0.179958s
+Solver time = 0.076594s
+Total time = 0.256573s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 0
+0 simplex iterations
+Setup time = 0.003585s
+Solver time = 0.002125s
+Total time = 0.005728s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+Solution determined by presolve;
+objective dual_svm = 0.
+Solution determined by presolve;
+objective dual_svm = 0.
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -4.632162292e+25
+0 simplex iterations
+18 barrier iterations
+Setup time = 0.003697s
+Solver time = 0.027148s
+Total time = 0.030865s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 5E+25           8E+17         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 26.41313253
+0 simplex iterations
+22 barrier iterations
+Setup time = 0.184290s
+Solver time = 0.020328s
+Total time = 0.204639s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 89.70345187
+0 simplex iterations
+19 barrier iterations
+Setup time = 0.177662s
+Solver time = 0.082982s
+Total time = 0.260666s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.198153417e+22
+0 simplex iterations
+24 barrier iterations
+Setup time = 0.003443s
+Solver time = 0.031617s
+Total time = 0.035079s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 1E+22           1E+13         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 201.4656509
+0 simplex iterations
+23 barrier iterations
+Setup time = 0.187501s
+Solver time = 0.021724s
+Total time = 0.209243s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 670.7738104
+0 simplex iterations
+19 barrier iterations
+Setup time = 0.178329s
+Solver time = 0.081754s
+Total time = 0.260103s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -5.260359459e+23
+0 simplex iterations
+34 barrier iterations
+Setup time = 0.003693s
+Solver time = 0.046126s
+Total time = 0.049845s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 5E+23           4E+13         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 1376.002173
+0 simplex iterations
+23 barrier iterations
+Setup time = 0.178935s
+Solver time = 0.020928s
+Total time = 0.199881s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 5499.416615
+0 simplex iterations
+18 barrier iterations
+Setup time = 0.174925s
+Solver time = 0.079239s
+Total time = 0.254185s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -2.152655529e+28
+0 simplex iterations
+10 barrier iterations
+Setup time = 0.001948s
+Solver time = 0.003846s
+Total time = 0.005811s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 2E+28           1E+27         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 0.5718255138
+0 simplex iterations
+8 barrier iterations
+Setup time = 0.005568s
+Solver time = 0.002774s
+Total time = 0.008357s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 0.6668758395
+0 simplex iterations
+7 barrier iterations
+Setup time = 0.005431s
+Solver time = 0.004757s
+Total time = 0.010211s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -2.727655983e+20
+0 simplex iterations
+9 barrier iterations
+Setup time = 0.002218s
+Solver time = 0.003429s
+Total time = 0.005666s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 3E+20           6E+17         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 3.119347211
+0 simplex iterations
+13 barrier iterations
+Setup time = 0.005415s
+Solver time = 0.003338s
+Total time = 0.008767s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 4.036185744
+0 simplex iterations
+11 barrier iterations
+Setup time = 0.005352s
+Solver time = 0.005872s
+Total time = 0.011238s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 0
+0 simplex iterations
+Setup time = 0.001919s
+Solver time = 0.001354s
+Total time = 0.003287s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+Solution determined by presolve;
+objective dual_svm = 0.
+Solution determined by presolve;
+objective dual_svm = 0.
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -3.351651744e+22
+0 simplex iterations
+10 barrier iterations
+Setup time = 0.002526s
+Solver time = 0.003707s
+Total time = 0.006251s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 3E+22           5E+18         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 21.4315087
+0 simplex iterations
+16 barrier iterations
+Setup time = 0.005596s
+Solver time = 0.003700s
+Total time = 0.009310s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 16.6844089
+0 simplex iterations
+13 barrier iterations
+Setup time = 0.005294s
+Solver time = 0.006499s
+Total time = 0.011809s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -5.714210359e+21
+0 simplex iterations
+11 barrier iterations
+Setup time = 0.002559s
+Solver time = 0.003877s
+Total time = 0.006460s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 6E+21           6E+16         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 186.8382143
+0 simplex iterations
+13 barrier iterations
+Setup time = 0.005678s
+Solver time = 0.003547s
+Total time = 0.009240s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 83.50711079
+0 simplex iterations
+10 barrier iterations
+Setup time = 0.005366s
+Solver time = 0.005510s
+Total time = 0.010890s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -2.46722546e+27
+0 simplex iterations
+12 barrier iterations
+Setup time = 0.002583s
+Solver time = 0.004272s
+Total time = 0.006875s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 2E+27           4E+20         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 1834.130748
+0 simplex iterations
+15 barrier iterations
+Setup time = 0.005573s
+Solver time = 0.003700s
+Total time = 0.009289s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 342.2764374
+0 simplex iterations
+12 barrier iterations
+Setup time = 0.005477s
+Solver time = 0.006215s
+Total time = 0.011709s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -6.531854333e+24
+0 simplex iterations
+10 barrier iterations
+Setup time = 0.003550s
+Solver time = 0.008090s
+Total time = 0.011658s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 7E+24           4E+22         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 3.354082592
+0 simplex iterations
+17 barrier iterations
+Setup time = 0.614035s
+Solver time = 0.015392s
+Total time = 0.629448s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 4.129206564
+0 simplex iterations
+14 barrier iterations
+Setup time = 0.616648s
+Solver time = 0.057179s
+Total time = 0.673848s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.138132544e+21
+0 simplex iterations
+10 barrier iterations
+Setup time = 0.004033s
+Solver time = 0.008791s
+Total time = 0.012846s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 1E+21           4E+17         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 23.09374745
+0 simplex iterations
+29 barrier iterations
+Setup time = 0.631259s
+Solver time = 0.018340s
+Total time = 0.649616s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 15.30163974
+0 simplex iterations
+25 barrier iterations
+Setup time = 0.671755s
+Solver time = 0.089164s
+Total time = 0.760943s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 0
+0 simplex iterations
+Setup time = 0.003155s
+Solver time = 0.001781s
+Total time = 0.004949s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+Solution determined by presolve;
+objective dual_svm = 0.
+Solution determined by presolve;
+objective dual_svm = 0.
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.317615641e+23
+0 simplex iterations
+11 barrier iterations
+Setup time = 0.003961s
+Solver time = 0.008722s
+Total time = 0.012702s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 1E+23           2E+18         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 202.008619
+0 simplex iterations
+26 barrier iterations
+Setup time = 0.623341s
+Solver time = 0.017493s
+Total time = 0.640851s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 58.19597779
+0 simplex iterations
+26 barrier iterations
+Setup time = 0.624001s
+Solver time = 0.083526s
+Total time = 0.707548s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -4.292160558e+23
+0 simplex iterations
+13 barrier iterations
+Setup time = 0.003524s
+Solver time = 0.009948s
+Total time = 0.013491s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 4E+23           5E+17         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 1975.863412
+0 simplex iterations
+24 barrier iterations
+Setup time = 0.619477s
+Solver time = 0.017049s
+Total time = 0.636544s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 276.485871
+0 simplex iterations
+19 barrier iterations
+Setup time = 0.619463s
+Solver time = 0.067451s
+Total time = 0.686938s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.146370391e+25
+0 simplex iterations
+20 barrier iterations
+Setup time = 0.004039s
+Solver time = 0.013865s
+Total time = 0.017922s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 1E+25           2E+17         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 19711.64927
+0 simplex iterations
+21 barrier iterations
+Setup time = 0.617191s
+Solver time = 0.016809s
+Total time = 0.634017s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 1780.630332
+0 simplex iterations
+19 barrier iterations
+Setup time = 0.612472s
+Solver time = 0.069130s
+Total time = 0.681623s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -3.979800926e+22
+0 simplex iterations
+10 barrier iterations
+Setup time = 0.005447s
+Solver time = 0.009992s
+Total time = 0.015457s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 4E+22           1E+20         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 5.914347542
+0 simplex iterations
+20 barrier iterations
+Setup time = 2.895470s
+Solver time = 0.080761s
+Total time = 2.976252s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 6.103714832
+0 simplex iterations
+16 barrier iterations
+Setup time = 2.559330s
+Solver time = 0.210132s
+Total time = 2.769486s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.558692513e+26
+0 simplex iterations
+11 barrier iterations
+Setup time = 0.006109s
+Solver time = 0.011151s
+Total time = 0.017279s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 2E+26           3E+22         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 43.13868035
+0 simplex iterations
+30 barrier iterations
+Setup time = 2.534042s
+Solver time = 0.083273s
+Total time = 2.617336s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 22.25431286
+0 simplex iterations
+30 barrier iterations
+Setup time = 2.575821s
+Solver time = 0.301558s
+Total time = 2.877403s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 0
+0 simplex iterations
+Setup time = 0.005455s
+Solver time = 0.002025s
+Total time = 0.007494s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+Solution determined by presolve;
+objective dual_svm = 0.
+Solution determined by presolve;
+objective dual_svm = 0.
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -2.660092018e+22
+0 simplex iterations
+11 barrier iterations
+Setup time = 0.005442s
+Solver time = 0.011312s
+Total time = 0.016773s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 3E+22           2E+17         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 393.4066765
+0 simplex iterations
+28 barrier iterations
+Setup time = 2.629955s
+Solver time = 0.082143s
+Total time = 2.712118s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 85.4768461
+0 simplex iterations
+30 barrier iterations
+Setup time = 2.732807s
+Solver time = 0.311143s
+Total time = 3.043973s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.869680824e+22
+0 simplex iterations
+14 barrier iterations
+Setup time = 0.004297s
+Solver time = 0.012656s
+Total time = 0.016974s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 2E+22           1E+16         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 3882.239436
+0 simplex iterations
+26 barrier iterations
+Setup time = 2.585951s
+Solver time = 0.081206s
+Total time = 2.667178s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 435.8093304
+0 simplex iterations
+22 barrier iterations
+Setup time = 2.586189s
+Solver time = 0.245670s
+Total time = 2.831885s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -2.768555353e+20
+0 simplex iterations
+22 barrier iterations
+Setup time = 0.004650s
+Solver time = 0.018995s
+Total time = 0.023664s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 3E+20           4E+12         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 38768.84308
+0 simplex iterations
+26 barrier iterations
+Setup time = 2.568741s
+Solver time = 0.081456s
+Total time = 2.650219s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 2652.222705
+0 simplex iterations
+23 barrier iterations
+Setup time = 2.588891s
+Solver time = 0.266215s
+Total time = 2.855130s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+==============Iteración 2/3==============
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.824248144e+20
+0 simplex iterations
+32 barrier iterations
+Setup time = 0.002645s
+Solver time = 0.006739s
+Total time = 0.009402s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 2E+20           5E+18         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 0.6849190499
+0 simplex iterations
+7 barrier iterations
+Setup time = 0.005391s
+Solver time = 0.002787s
+Total time = 0.008193s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 0.6818568405
+0 simplex iterations
+7 barrier iterations
+Setup time = 0.005776s
+Solver time = 0.004838s
+Total time = 0.010628s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.270752816e+20
+0 simplex iterations
+20 barrier iterations
+Setup time = 0.002196s
+Solver time = 0.005008s
+Total time = 0.007221s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 1E+20           4E+17         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 5.524168339
+0 simplex iterations
+9 barrier iterations
+Setup time = 0.005575s
+Solver time = 0.002919s
+Total time = 0.008509s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 5.194875651
+0 simplex iterations
+10 barrier iterations
+Setup time = 0.005600s
+Solver time = 0.005707s
+Total time = 0.011322s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 0
+0 simplex iterations
+Setup time = 0.001945s
+Solver time = 0.001469s
+Total time = 0.003428s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+Solution determined by presolve;
+objective dual_svm = 0.
+Solution determined by presolve;
+objective dual_svm = 0.
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -3.149279698e+20
+0 simplex iterations
+14 barrier iterations
+Setup time = 0.002642s
+Solver time = 0.004052s
+Total time = 0.006711s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 3E+20           5E+16         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 28.90730047
+0 simplex iterations
+11 barrier iterations
+Setup time = 0.005454s
+Solver time = 0.003260s
+Total time = 0.008733s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 22.38666916
+0 simplex iterations
+11 barrier iterations
+Setup time = 0.005511s
+Solver time = 0.006351s
+Total time = 0.011877s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.431413557e+20
+0 simplex iterations
+19 barrier iterations
+Setup time = 0.002558s
+Solver time = 0.005043s
+Total time = 0.007622s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 1E+20           2E+15         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 160.178008
+0 simplex iterations
+14 barrier iterations
+Setup time = 0.005966s
+Solver time = 0.003513s
+Total time = 0.009498s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 87.06833286
+0 simplex iterations
+9 barrier iterations
+Setup time = 0.005431s
+Solver time = 0.005587s
+Total time = 0.011035s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -2.785530159e+20
+0 simplex iterations
+13 barrier iterations
+Setup time = 0.002559s
+Solver time = 0.004203s
+Total time = 0.006781s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 3E+20           2E+14         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 1194.188534
+0 simplex iterations
+13 barrier iterations
+Setup time = 0.005935s
+Solver time = 0.003453s
+Total time = 0.009402s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 217.7980298
+0 simplex iterations
+11 barrier iterations
+Setup time = 0.005390s
+Solver time = 0.006065s
+Total time = 0.011470s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.37660694e+20
+0 simplex iterations
+33 barrier iterations
+Setup time = 0.004121s
+Solver time = 0.021010s
+Total time = 0.025150s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 1E+20           5E+18         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 5.754034798
+0 simplex iterations
+14 barrier iterations
+Setup time = 0.621775s
+Solver time = 0.015247s
+Total time = 0.637040s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 5.601526203
+0 simplex iterations
+16 barrier iterations
+Setup time = 0.616720s
+Solver time = 0.266365s
+Total time = 0.883109s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.007709587e+20
+0 simplex iterations
+28 barrier iterations
+Setup time = 0.003258s
+Solver time = 0.018761s
+Total time = 0.022037s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 1E+20           3E+17         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 34.11989035
+0 simplex iterations
+14 barrier iterations
+Setup time = 0.619217s
+Solver time = 0.015407s
+Total time = 0.634643s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 29.95082813
+0 simplex iterations
+14 barrier iterations
+Setup time = 0.620299s
+Solver time = 0.246425s
+Total time = 0.866751s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 0
+0 simplex iterations
+Setup time = 0.003156s
+Solver time = 0.001932s
+Total time = 0.005105s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+Solution determined by presolve;
+objective dual_svm = 0.
+Solution determined by presolve;
+objective dual_svm = 0.
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.126241938e+20
+0 simplex iterations
+19 barrier iterations
+Setup time = 0.004136s
+Solver time = 0.013665s
+Total time = 0.017818s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 1E+20           1E+16         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 228.9881577
+0 simplex iterations
+19 barrier iterations
+Setup time = 0.623483s
+Solver time = 0.016318s
+Total time = 0.639818s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 187.6752131
+0 simplex iterations
+17 barrier iterations
+Setup time = 0.621349s
+Solver time = 0.284141s
+Total time = 0.905512s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.227955325e+20
+0 simplex iterations
+21 barrier iterations
+Setup time = 0.003272s
+Solver time = 0.013688s
+Total time = 0.016979s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 1E+20           4E+14         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 2004.99725
+0 simplex iterations
+24 barrier iterations
+Setup time = 0.620778s
+Solver time = 0.018443s
+Total time = 0.639240s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 1401.753126
+0 simplex iterations
+16 barrier iterations
+Setup time = 0.624174s
+Solver time = 0.265836s
+Total time = 0.890038s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.977422818e+21
+0 simplex iterations
+27 barrier iterations
+Setup time = 0.003093s
+Solver time = 0.017545s
+Total time = 0.020656s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 2E+21           5E+14         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 19659.80719
+0 simplex iterations
+25 barrier iterations
+Setup time = 0.618396s
+Solver time = 0.018702s
+Total time = 0.637115s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 10274.32609
+0 simplex iterations
+16 barrier iterations
+Setup time = 0.623074s
+Solver time = 0.278186s
+Total time = 0.901284s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.330486774e+20
+0 simplex iterations
+22 barrier iterations
+Setup time = 0.005727s
+Solver time = 0.019336s
+Total time = 0.025082s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 1E+20           2E+18         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 10.25777333
+0 simplex iterations
+12 barrier iterations
+Setup time = 2.581746s
+Solver time = 0.078313s
+Total time = 2.660080s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 9.661592492
+0 simplex iterations
+12 barrier iterations
+Setup time = 2.569846s
+Solver time = 1.292837s
+Total time = 3.862704s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.229333748e+20
+0 simplex iterations
+20 barrier iterations
+Setup time = 0.004405s
+Solver time = 0.017628s
+Total time = 0.022053s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 1E+20           1E+17         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 60.91919701
+0 simplex iterations
+17 barrier iterations
+Setup time = 2.568638s
+Solver time = 0.078091s
+Total time = 2.646749s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 52.78699487
+0 simplex iterations
+17 barrier iterations
+Setup time = 2.611072s
+Solver time = 1.551024s
+Total time = 4.162118s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 0
+0 simplex iterations
+Setup time = 0.004287s
+Solver time = 0.001882s
+Total time = 0.006183s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+Solution determined by presolve;
+objective dual_svm = 0.
+Solution determined by presolve;
+objective dual_svm = 0.
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -2.117067054e+20
+0 simplex iterations
+23 barrier iterations
+Setup time = 0.005925s
+Solver time = 0.019963s
+Total time = 0.025907s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 2E+20           7E+15         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 435.8439358
+0 simplex iterations
+25 barrier iterations
+Setup time = 2.541273s
+Solver time = 0.081903s
+Total time = 2.623201s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 353.3703081
+0 simplex iterations
+22 barrier iterations
+Setup time = 2.566352s
+Solver time = 1.815105s
+Total time = 4.381480s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -2.323090939e+20
+0 simplex iterations
+23 barrier iterations
+Setup time = 0.006045s
+Solver time = 0.023026s
+Total time = 0.029096s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 2E+20           4E+14         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 3964.07432
+0 simplex iterations
+23 barrier iterations
+Setup time = 2.554493s
+Solver time = 0.081083s
+Total time = 2.635601s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 2795.308393
+0 simplex iterations
+19 barrier iterations
+Setup time = 2.550882s
+Solver time = 1.582987s
+Total time = 4.133893s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -8.993137303e+20
+0 simplex iterations
+29 barrier iterations
+Setup time = 0.005704s
+Solver time = 0.025531s
+Total time = 0.031254s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 9E+20           1E+14         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 39147.25439
+0 simplex iterations
+27 barrier iterations
+Setup time = 2.541830s
+Solver time = 0.082660s
+Total time = 2.624517s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 23380.94632
+0 simplex iterations
+18 barrier iterations
+Setup time = 2.632523s
+Solver time = 1.553661s
+Total time = 4.186208s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.07039089e+21
+0 simplex iterations
+8 barrier iterations
+Setup time = 0.003747s
+Solver time = 0.014262s
+Total time = 0.018029s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 1E+21           2E+15         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 0.3557769408
+0 simplex iterations
+27 barrier iterations
+Setup time = 0.176695s
+Solver time = 0.022824s
+Total time = 0.199538s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 2.482655618
+0 simplex iterations
+11 barrier iterations
+Setup time = 0.175751s
+Solver time = 0.063368s
+Total time = 0.239140s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -7.232737414e+26
+0 simplex iterations
+9 barrier iterations
+Setup time = 0.004612s
+Solver time = 0.016337s
+Total time = 0.020969s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 7E+26           9E+19         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 3.229115882
+0 simplex iterations
+23 barrier iterations
+Setup time = 0.183938s
+Solver time = 0.020647s
+Total time = 0.204602s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 13.20697988
+0 simplex iterations
+17 barrier iterations
+Setup time = 0.180684s
+Solver time = 0.076086s
+Total time = 0.256791s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 0
+0 simplex iterations
+Setup time = 0.004555s
+Solver time = 0.002048s
+Total time = 0.006618s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+Solution determined by presolve;
+objective dual_svm = 0.
+Solution determined by presolve;
+objective dual_svm = 0.
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -4.632162292e+25
+0 simplex iterations
+18 barrier iterations
+Setup time = 0.003714s
+Solver time = 0.027527s
+Total time = 0.031265s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 5E+25           8E+17         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 26.41313253
+0 simplex iterations
+22 barrier iterations
+Setup time = 0.180371s
+Solver time = 0.020110s
+Total time = 0.200499s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 89.70345187
+0 simplex iterations
+19 barrier iterations
+Setup time = 0.181192s
+Solver time = 0.082176s
+Total time = 0.263391s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.198153417e+22
+0 simplex iterations
+24 barrier iterations
+Setup time = 0.003621s
+Solver time = 0.032781s
+Total time = 0.036429s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 1E+22           1E+13         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 201.4656509
+0 simplex iterations
+23 barrier iterations
+Setup time = 0.175634s
+Solver time = 0.020353s
+Total time = 0.196003s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 670.7738104
+0 simplex iterations
+19 barrier iterations
+Setup time = 0.174952s
+Solver time = 0.081928s
+Total time = 0.256899s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -5.260359459e+23
+0 simplex iterations
+34 barrier iterations
+Setup time = 0.004628s
+Solver time = 0.046438s
+Total time = 0.051088s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 5E+23           4E+13         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 1376.002173
+0 simplex iterations
+23 barrier iterations
+Setup time = 0.179844s
+Solver time = 0.020730s
+Total time = 0.200589s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 5499.416615
+0 simplex iterations
+18 barrier iterations
+Setup time = 0.176500s
+Solver time = 0.079492s
+Total time = 0.256013s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -2.152655529e+28
+0 simplex iterations
+10 barrier iterations
+Setup time = 0.002578s
+Solver time = 0.003923s
+Total time = 0.006520s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 2E+28           1E+27         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 0.5718255138
+0 simplex iterations
+8 barrier iterations
+Setup time = 0.005490s
+Solver time = 0.002923s
+Total time = 0.008427s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 0.6668758395
+0 simplex iterations
+7 barrier iterations
+Setup time = 0.005689s
+Solver time = 0.005009s
+Total time = 0.010717s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -2.727655983e+20
+0 simplex iterations
+9 barrier iterations
+Setup time = 0.002310s
+Solver time = 0.003399s
+Total time = 0.005730s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 3E+20           6E+17         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 3.119347211
+0 simplex iterations
+13 barrier iterations
+Setup time = 0.005779s
+Solver time = 0.003371s
+Total time = 0.009164s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 4.036185744
+0 simplex iterations
+11 barrier iterations
+Setup time = 0.005459s
+Solver time = 0.005880s
+Total time = 0.011355s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 0
+0 simplex iterations
+Setup time = 0.002584s
+Solver time = 0.001576s
+Total time = 0.004174s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+Solution determined by presolve;
+objective dual_svm = 0.
+Solution determined by presolve;
+objective dual_svm = 0.
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -3.351651744e+22
+0 simplex iterations
+10 barrier iterations
+Setup time = 0.002551s
+Solver time = 0.003866s
+Total time = 0.006438s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 3E+22           5E+18         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 21.4315087
+0 simplex iterations
+16 barrier iterations
+Setup time = 0.005858s
+Solver time = 0.003865s
+Total time = 0.009737s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 16.6844089
+0 simplex iterations
+13 barrier iterations
+Setup time = 0.006518s
+Solver time = 0.006772s
+Total time = 0.013305s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -5.714210359e+21
+0 simplex iterations
+11 barrier iterations
+Setup time = 0.002533s
+Solver time = 0.003942s
+Total time = 0.006493s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 6E+21           6E+16         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 186.8382143
+0 simplex iterations
+13 barrier iterations
+Setup time = 0.005869s
+Solver time = 0.003342s
+Total time = 0.009226s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 83.50711079
+0 simplex iterations
+10 barrier iterations
+Setup time = 0.005713s
+Solver time = 0.005881s
+Total time = 0.011610s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -2.46722546e+27
+0 simplex iterations
+12 barrier iterations
+Setup time = 0.002596s
+Solver time = 0.003903s
+Total time = 0.006517s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 2E+27           4E+20         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 1834.130748
+0 simplex iterations
+15 barrier iterations
+Setup time = 0.005466s
+Solver time = 0.003745s
+Total time = 0.009226s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 342.2764374
+0 simplex iterations
+12 barrier iterations
+Setup time = 0.005864s
+Solver time = 0.006672s
+Total time = 0.012550s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -6.531854333e+24
+0 simplex iterations
+10 barrier iterations
+Setup time = 0.003062s
+Solver time = 0.008311s
+Total time = 0.011392s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 7E+24           4E+22         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 3.354082592
+0 simplex iterations
+17 barrier iterations
+Setup time = 0.619679s
+Solver time = 0.015671s
+Total time = 0.635369s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 4.129206564
+0 simplex iterations
+14 barrier iterations
+Setup time = 0.619470s
+Solver time = 0.057338s
+Total time = 0.676830s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.138132544e+21
+0 simplex iterations
+10 barrier iterations
+Setup time = 0.004036s
+Solver time = 0.008694s
+Total time = 0.012750s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 1E+21           4E+17         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 23.09374745
+0 simplex iterations
+29 barrier iterations
+Setup time = 0.616734s
+Solver time = 0.018424s
+Total time = 0.635179s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 15.30163974
+0 simplex iterations
+25 barrier iterations
+Setup time = 0.641866s
+Solver time = 0.086612s
+Total time = 0.728502s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 0
+0 simplex iterations
+Setup time = 0.003940s
+Solver time = 0.001850s
+Total time = 0.005804s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+Solution determined by presolve;
+objective dual_svm = 0.
+Solution determined by presolve;
+objective dual_svm = 0.
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.317615641e+23
+0 simplex iterations
+11 barrier iterations
+Setup time = 0.003116s
+Solver time = 0.008898s
+Total time = 0.012033s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 1E+23           2E+18         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 202.008619
+0 simplex iterations
+26 barrier iterations
+Setup time = 0.620114s
+Solver time = 0.017868s
+Total time = 0.638001s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 58.19597779
+0 simplex iterations
+26 barrier iterations
+Setup time = 0.618503s
+Solver time = 0.082286s
+Total time = 0.700809s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -4.292160558e+23
+0 simplex iterations
+13 barrier iterations
+Setup time = 0.004025s
+Solver time = 0.010110s
+Total time = 0.014154s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 4E+23           5E+17         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 1975.863412
+0 simplex iterations
+24 barrier iterations
+Setup time = 0.618409s
+Solver time = 0.017651s
+Total time = 0.636081s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 276.485871
+0 simplex iterations
+19 barrier iterations
+Setup time = 0.627875s
+Solver time = 0.067426s
+Total time = 0.695321s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.146370391e+25
+0 simplex iterations
+20 barrier iterations
+Setup time = 0.003993s
+Solver time = 0.014455s
+Total time = 0.018466s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 1E+25           2E+17         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 19711.64927
+0 simplex iterations
+21 barrier iterations
+Setup time = 0.622544s
+Solver time = 0.016773s
+Total time = 0.639334s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 1780.630332
+0 simplex iterations
+19 barrier iterations
+Setup time = 0.619903s
+Solver time = 0.067301s
+Total time = 0.687226s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -3.979800926e+22
+0 simplex iterations
+10 barrier iterations
+Setup time = 0.005527s
+Solver time = 0.010608s
+Total time = 0.016158s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 4E+22           1E+20         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 5.914347542
+0 simplex iterations
+20 barrier iterations
+Setup time = 2.586979s
+Solver time = 0.079836s
+Total time = 2.666837s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 6.103714832
+0 simplex iterations
+16 barrier iterations
+Setup time = 2.567586s
+Solver time = 0.208534s
+Total time = 2.776145s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.558692513e+26
+0 simplex iterations
+11 barrier iterations
+Setup time = 0.005788s
+Solver time = 0.011513s
+Total time = 0.017325s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 2E+26           3E+22         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 43.13868035
+0 simplex iterations
+30 barrier iterations
+Setup time = 2.557173s
+Solver time = 0.082491s
+Total time = 2.639685s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 22.25431286
+0 simplex iterations
+30 barrier iterations
+Setup time = 2.569381s
+Solver time = 0.308525s
+Total time = 2.877932s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 0
+0 simplex iterations
+Setup time = 0.004871s
+Solver time = 0.001884s
+Total time = 0.006771s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+Solution determined by presolve;
+objective dual_svm = 0.
+Solution determined by presolve;
+objective dual_svm = 0.
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -2.660092018e+22
+0 simplex iterations
+11 barrier iterations
+Setup time = 0.004233s
+Solver time = 0.011417s
+Total time = 0.015674s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 3E+22           2E+17         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 393.4066765
+0 simplex iterations
+28 barrier iterations
+Setup time = 2.559855s
+Solver time = 0.081342s
+Total time = 2.641218s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 85.4768461
+0 simplex iterations
+30 barrier iterations
+Setup time = 2.582384s
+Solver time = 0.294545s
+Total time = 2.876952s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.869680824e+22
+0 simplex iterations
+14 barrier iterations
+Setup time = 0.005709s
+Solver time = 0.013211s
+Total time = 0.018938s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 2E+22           1E+16         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 3882.239436
+0 simplex iterations
+26 barrier iterations
+Setup time = 2.586711s
+Solver time = 0.081099s
+Total time = 2.667833s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 435.8093304
+0 simplex iterations
+22 barrier iterations
+Setup time = 2.605879s
+Solver time = 0.253324s
+Total time = 2.859227s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -2.768555353e+20
+0 simplex iterations
+22 barrier iterations
+Setup time = 0.005579s
+Solver time = 0.019691s
+Total time = 0.025297s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 3E+20           4E+12         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 38768.84308
+0 simplex iterations
+26 barrier iterations
+Setup time = 2.585395s
+Solver time = 0.085521s
+Total time = 2.670937s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 2652.222705
+0 simplex iterations
+23 barrier iterations
+Setup time = 2.554116s
+Solver time = 0.250715s
+Total time = 2.804855s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+==============Iteración 3/3==============
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.824248144e+20
+0 simplex iterations
+32 barrier iterations
+Setup time = 0.002136s
+Solver time = 0.007081s
+Total time = 0.009239s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 2E+20           5E+18         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 0.6849190499
+0 simplex iterations
+7 barrier iterations
+Setup time = 0.005595s
+Solver time = 0.003011s
+Total time = 0.008621s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 0.6818568405
+0 simplex iterations
+7 barrier iterations
+Setup time = 0.005774s
+Solver time = 0.004862s
+Total time = 0.010651s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.270752816e+20
+0 simplex iterations
+20 barrier iterations
+Setup time = 0.001971s
+Solver time = 0.005644s
+Total time = 0.007641s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 1E+20           4E+17         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 5.524168339
+0 simplex iterations
+9 barrier iterations
+Setup time = 0.005781s
+Solver time = 0.002954s
+Total time = 0.008750s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 5.194875651
+0 simplex iterations
+10 barrier iterations
+Setup time = 0.005491s
+Solver time = 0.005675s
+Total time = 0.011180s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 0
+0 simplex iterations
+Setup time = 0.001962s
+Solver time = 0.001378s
+Total time = 0.003353s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+Solution determined by presolve;
+objective dual_svm = 0.
+Solution determined by presolve;
+objective dual_svm = 0.
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -3.149279698e+20
+0 simplex iterations
+14 barrier iterations
+Setup time = 0.002634s
+Solver time = 0.004820s
+Total time = 0.007472s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 3E+20           5E+16         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 28.90730047
+0 simplex iterations
+11 barrier iterations
+Setup time = 0.005423s
+Solver time = 0.003559s
+Total time = 0.008999s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 22.38666916
+0 simplex iterations
+11 barrier iterations
+Setup time = 0.005359s
+Solver time = 0.006348s
+Total time = 0.011722s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.431413557e+20
+0 simplex iterations
+19 barrier iterations
+Setup time = 0.002508s
+Solver time = 0.004709s
+Total time = 0.007235s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 1E+20           2E+15         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 160.178008
+0 simplex iterations
+14 barrier iterations
+Setup time = 0.005371s
+Solver time = 0.003433s
+Total time = 0.008819s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 87.06833286
+0 simplex iterations
+9 barrier iterations
+Setup time = 0.005383s
+Solver time = 0.005411s
+Total time = 0.010809s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -2.785530159e+20
+0 simplex iterations
+13 barrier iterations
+Setup time = 0.002623s
+Solver time = 0.004143s
+Total time = 0.006786s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 3E+20           2E+14         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 1194.188534
+0 simplex iterations
+13 barrier iterations
+Setup time = 0.005774s
+Solver time = 0.003420s
+Total time = 0.009208s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 217.7980298
+0 simplex iterations
+11 barrier iterations
+Setup time = 0.005510s
+Solver time = 0.006223s
+Total time = 0.011747s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.37660694e+20
+0 simplex iterations
+33 barrier iterations
+Setup time = 0.004128s
+Solver time = 0.021002s
+Total time = 0.025149s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 1E+20           5E+18         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 5.754034798
+0 simplex iterations
+14 barrier iterations
+Setup time = 0.611539s
+Solver time = 0.015052s
+Total time = 0.626611s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 5.601526203
+0 simplex iterations
+16 barrier iterations
+Setup time = 0.616487s
+Solver time = 0.270112s
+Total time = 0.886622s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.007709587e+20
+0 simplex iterations
+28 barrier iterations
+Setup time = 0.003113s
+Solver time = 0.018789s
+Total time = 0.021920s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 1E+20           3E+17         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 34.11989035
+0 simplex iterations
+14 barrier iterations
+Setup time = 0.610548s
+Solver time = 0.014957s
+Total time = 0.625523s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 29.95082813
+0 simplex iterations
+14 barrier iterations
+Setup time = 0.616950s
+Solver time = 0.247067s
+Total time = 0.864041s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 0
+0 simplex iterations
+Setup time = 0.004065s
+Solver time = 0.001932s
+Total time = 0.006016s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+Solution determined by presolve;
+objective dual_svm = 0.
+Solution determined by presolve;
+objective dual_svm = 0.
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.126241938e+20
+0 simplex iterations
+19 barrier iterations
+Setup time = 0.003163s
+Solver time = 0.013003s
+Total time = 0.016185s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 1E+20           1E+16         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 228.9881577
+0 simplex iterations
+19 barrier iterations
+Setup time = 0.612936s
+Solver time = 0.016727s
+Total time = 0.629682s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 187.6752131
+0 simplex iterations
+17 barrier iterations
+Setup time = 0.622113s
+Solver time = 0.278296s
+Total time = 0.900437s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.227955325e+20
+0 simplex iterations
+21 barrier iterations
+Setup time = 0.004135s
+Solver time = 0.014617s
+Total time = 0.018771s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 1E+20           4E+14         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 2004.99725
+0 simplex iterations
+24 barrier iterations
+Setup time = 0.615688s
+Solver time = 0.018073s
+Total time = 0.633778s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 1401.753126
+0 simplex iterations
+16 barrier iterations
+Setup time = 0.612496s
+Solver time = 0.265963s
+Total time = 0.878482s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.977422818e+21
+0 simplex iterations
+27 barrier iterations
+Setup time = 0.004097s
+Solver time = 0.018678s
+Total time = 0.022794s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 2E+21           5E+14         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 19659.80719
+0 simplex iterations
+25 barrier iterations
+Setup time = 0.610564s
+Solver time = 0.018185s
+Total time = 0.628767s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 10274.32609
+0 simplex iterations
+16 barrier iterations
+Setup time = 0.618216s
+Solver time = 0.265918s
+Total time = 0.884158s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.330486774e+20
+0 simplex iterations
+22 barrier iterations
+Setup time = 0.005874s
+Solver time = 0.020229s
+Total time = 0.026125s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 1E+20           2E+18         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 10.25777333
+0 simplex iterations
+12 barrier iterations
+Setup time = 2.566223s
+Solver time = 0.076267s
+Total time = 2.642512s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 9.661592492
+0 simplex iterations
+12 barrier iterations
+Setup time = 2.576021s
+Solver time = 1.286468s
+Total time = 3.862512s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.229333748e+20
+0 simplex iterations
+20 barrier iterations
+Setup time = 0.005756s
+Solver time = 0.018705s
+Total time = 0.024480s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 1E+20           1E+17         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 60.91919701
+0 simplex iterations
+17 barrier iterations
+Setup time = 2.604152s
+Solver time = 0.093604s
+Total time = 2.697780s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 52.78699487
+0 simplex iterations
+17 barrier iterations
+Setup time = 2.772129s
+Solver time = 1.561727s
+Total time = 4.333879s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 0
+0 simplex iterations
+Setup time = 0.004470s
+Solver time = 0.002339s
+Total time = 0.006824s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+Solution determined by presolve;
+objective dual_svm = 0.
+Solution determined by presolve;
+objective dual_svm = 0.
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -2.117067054e+20
+0 simplex iterations
+23 barrier iterations
+Setup time = 0.005801s
+Solver time = 0.020329s
+Total time = 0.026149s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 2E+20           7E+15         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 435.8439358
+0 simplex iterations
+25 barrier iterations
+Setup time = 2.630577s
+Solver time = 0.097424s
+Total time = 2.728022s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 353.3703081
+0 simplex iterations
+22 barrier iterations
+Setup time = 2.803820s
+Solver time = 1.728583s
+Total time = 4.532866s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -2.323090939e+20
+0 simplex iterations
+23 barrier iterations
+Setup time = 0.005863s
+Solver time = 0.021463s
+Total time = 0.027346s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 2E+20           4E+14         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 3964.07432
+0 simplex iterations
+23 barrier iterations
+Setup time = 2.568723s
+Solver time = 0.081941s
+Total time = 2.650685s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 2795.308393
+0 simplex iterations
+19 barrier iterations
+Setup time = 2.554634s
+Solver time = 1.584766s
+Total time = 4.139424s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -8.993137303e+20
+0 simplex iterations
+29 barrier iterations
+Setup time = 0.006033s
+Solver time = 0.024722s
+Total time = 0.030773s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 9E+20           1E+14         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 39147.25439
+0 simplex iterations
+27 barrier iterations
+Setup time = 2.538876s
+Solver time = 0.084463s
+Total time = 2.623364s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 23380.94632
+0 simplex iterations
+18 barrier iterations
+Setup time = 2.667778s
+Solver time = 1.557628s
+Total time = 4.225436s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.07039089e+21
+0 simplex iterations
+8 barrier iterations
+Setup time = 0.003857s
+Solver time = 0.014764s
+Total time = 0.018640s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 1E+21           2E+15         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 0.3557769408
+0 simplex iterations
+27 barrier iterations
+Setup time = 0.178581s
+Solver time = 0.023386s
+Total time = 0.201984s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 2.482655618
+0 simplex iterations
+11 barrier iterations
+Setup time = 0.180456s
+Solver time = 0.249204s
+Total time = 0.429688s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -7.232737414e+26
+0 simplex iterations
+9 barrier iterations
+Setup time = 0.004563s
+Solver time = 0.016014s
+Total time = 0.020594s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 7E+26           9E+19         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 3.229115882
+0 simplex iterations
+23 barrier iterations
+Setup time = 0.179987s
+Solver time = 0.020606s
+Total time = 0.200611s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 13.20697988
+0 simplex iterations
+17 barrier iterations
+Setup time = 0.179266s
+Solver time = 0.076219s
+Total time = 0.255503s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 0
+0 simplex iterations
+Setup time = 0.004526s
+Solver time = 0.002155s
+Total time = 0.006694s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+Solution determined by presolve;
+objective dual_svm = 0.
+Solution determined by presolve;
+objective dual_svm = 0.
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -4.632162292e+25
+0 simplex iterations
+18 barrier iterations
+Setup time = 0.003452s
+Solver time = 0.025256s
+Total time = 0.028727s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 5E+25           8E+17         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 26.41313253
+0 simplex iterations
+22 barrier iterations
+Setup time = 0.183633s
+Solver time = 0.020035s
+Total time = 0.203683s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 89.70345187
+0 simplex iterations
+19 barrier iterations
+Setup time = 0.182413s
+Solver time = 0.082497s
+Total time = 0.264931s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.198153417e+22
+0 simplex iterations
+24 barrier iterations
+Setup time = 0.003547s
+Solver time = 0.032664s
+Total time = 0.036231s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 1E+22           1E+13         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 201.4656509
+0 simplex iterations
+23 barrier iterations
+Setup time = 0.181748s
+Solver time = 0.020613s
+Total time = 0.202378s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 670.7738104
+0 simplex iterations
+19 barrier iterations
+Setup time = 0.176081s
+Solver time = 0.082331s
+Total time = 0.258431s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -5.260359459e+23
+0 simplex iterations
+34 barrier iterations
+Setup time = 0.003672s
+Solver time = 0.046155s
+Total time = 0.049848s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 5E+23           4E+13         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 1376.002173
+0 simplex iterations
+23 barrier iterations
+Setup time = 0.179762s
+Solver time = 0.020379s
+Total time = 0.200163s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 5499.416615
+0 simplex iterations
+18 barrier iterations
+Setup time = 0.180128s
+Solver time = 0.079669s
+Total time = 0.259816s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -2.152655529e+28
+0 simplex iterations
+10 barrier iterations
+Setup time = 0.002587s
+Solver time = 0.003899s
+Total time = 0.006509s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 2E+28           1E+27         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 0.5718255138
+0 simplex iterations
+8 barrier iterations
+Setup time = 0.005427s
+Solver time = 0.002781s
+Total time = 0.008223s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 0.6668758395
+0 simplex iterations
+7 barrier iterations
+Setup time = 0.005588s
+Solver time = 0.004773s
+Total time = 0.010376s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -2.727655983e+20
+0 simplex iterations
+9 barrier iterations
+Setup time = 0.002579s
+Solver time = 0.003384s
+Total time = 0.005981s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 3E+20           6E+17         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 3.119347211
+0 simplex iterations
+13 barrier iterations
+Setup time = 0.005730s
+Solver time = 0.003453s
+Total time = 0.009197s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 4.036185744
+0 simplex iterations
+11 barrier iterations
+Setup time = 0.005604s
+Solver time = 0.006040s
+Total time = 0.011657s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 0
+0 simplex iterations
+Setup time = 0.002527s
+Solver time = 0.001557s
+Total time = 0.004097s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+Solution determined by presolve;
+objective dual_svm = 0.
+Solution determined by presolve;
+objective dual_svm = 0.
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -3.351651744e+22
+0 simplex iterations
+10 barrier iterations
+Setup time = 0.002531s
+Solver time = 0.003496s
+Total time = 0.006044s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 3E+22           5E+18         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 21.4315087
+0 simplex iterations
+16 barrier iterations
+Setup time = 0.006199s
+Solver time = 0.003817s
+Total time = 0.010030s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 16.6844089
+0 simplex iterations
+13 barrier iterations
+Setup time = 0.005631s
+Solver time = 0.006809s
+Total time = 0.012454s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -5.714210359e+21
+0 simplex iterations
+11 barrier iterations
+Setup time = 0.002533s
+Solver time = 0.003914s
+Total time = 0.006464s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 6E+21           6E+16         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 186.8382143
+0 simplex iterations
+13 barrier iterations
+Setup time = 0.005663s
+Solver time = 0.003302s
+Total time = 0.008981s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 83.50711079
+0 simplex iterations
+10 barrier iterations
+Setup time = 0.005673s
+Solver time = 0.006131s
+Total time = 0.011818s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -2.46722546e+27
+0 simplex iterations
+12 barrier iterations
+Setup time = 0.002588s
+Solver time = 0.004018s
+Total time = 0.006626s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 2E+27           4E+20         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 1834.130748
+0 simplex iterations
+15 barrier iterations
+Setup time = 0.005641s
+Solver time = 0.003609s
+Total time = 0.009263s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 342.2764374
+0 simplex iterations
+12 barrier iterations
+Setup time = 0.005678s
+Solver time = 0.006323s
+Total time = 0.012016s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -6.531854333e+24
+0 simplex iterations
+10 barrier iterations
+Setup time = 0.003961s
+Solver time = 0.008781s
+Total time = 0.012760s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 7E+24           4E+22         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 3.354082592
+0 simplex iterations
+17 barrier iterations
+Setup time = 0.616841s
+Solver time = 0.015271s
+Total time = 0.632129s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 4.129206564
+0 simplex iterations
+14 barrier iterations
+Setup time = 0.622687s
+Solver time = 0.057153s
+Total time = 0.679864s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.138132544e+21
+0 simplex iterations
+10 barrier iterations
+Setup time = 0.004013s
+Solver time = 0.009096s
+Total time = 0.013130s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 1E+21           4E+17         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 23.09374745
+0 simplex iterations
+29 barrier iterations
+Setup time = 0.617239s
+Solver time = 0.018838s
+Total time = 0.636095s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 15.30163974
+0 simplex iterations
+25 barrier iterations
+Setup time = 0.620210s
+Solver time = 0.082612s
+Total time = 0.702842s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 0
+0 simplex iterations
+Setup time = 0.003171s
+Solver time = 0.001678s
+Total time = 0.004862s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+Solution determined by presolve;
+objective dual_svm = 0.
+Solution determined by presolve;
+objective dual_svm = 0.
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.317615641e+23
+0 simplex iterations
+11 barrier iterations
+Setup time = 0.003142s
+Solver time = 0.008693s
+Total time = 0.011853s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 1E+23           2E+18         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 202.008619
+0 simplex iterations
+26 barrier iterations
+Setup time = 0.613987s
+Solver time = 0.018111s
+Total time = 0.632118s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 58.19597779
+0 simplex iterations
+26 barrier iterations
+Setup time = 0.609556s
+Solver time = 0.083172s
+Total time = 0.692750s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -4.292160558e+23
+0 simplex iterations
+13 barrier iterations
+Setup time = 0.004105s
+Solver time = 0.010763s
+Total time = 0.014888s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 4E+23           5E+17         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 1975.863412
+0 simplex iterations
+24 barrier iterations
+Setup time = 0.617665s
+Solver time = 0.017270s
+Total time = 0.634952s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 276.485871
+0 simplex iterations
+19 barrier iterations
+Setup time = 0.634251s
+Solver time = 0.075036s
+Total time = 0.709312s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.146370391e+25
+0 simplex iterations
+20 barrier iterations
+Setup time = 0.004026s
+Solver time = 0.014362s
+Total time = 0.018409s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 1E+25           2E+17         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 19711.64927
+0 simplex iterations
+21 barrier iterations
+Setup time = 0.616458s
+Solver time = 0.016471s
+Total time = 0.632947s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 1780.630332
+0 simplex iterations
+19 barrier iterations
+Setup time = 0.614471s
+Solver time = 0.068040s
+Total time = 0.682530s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -3.979800926e+22
+0 simplex iterations
+10 barrier iterations
+Setup time = 0.004577s
+Solver time = 0.009496s
+Total time = 0.014090s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 4E+22           1E+20         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 5.914347542
+0 simplex iterations
+20 barrier iterations
+Setup time = 2.569411s
+Solver time = 0.078678s
+Total time = 2.648108s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 6.103714832
+0 simplex iterations
+16 barrier iterations
+Setup time = 2.602714s
+Solver time = 0.212408s
+Total time = 2.815145s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.558692513e+26
+0 simplex iterations
+11 barrier iterations
+Setup time = 0.004285s
+Solver time = 0.010899s
+Total time = 0.015204s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 2E+26           3E+22         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 43.13868035
+0 simplex iterations
+30 barrier iterations
+Setup time = 2.581249s
+Solver time = 0.083210s
+Total time = 2.664477s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 22.25431286
+0 simplex iterations
+30 barrier iterations
+Setup time = 2.614298s
+Solver time = 0.301983s
+Total time = 2.916307s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 0
+0 simplex iterations
+Setup time = 0.005430s
+Solver time = 0.002334s
+Total time = 0.007780s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+Solution determined by presolve;
+objective dual_svm = 0.
+Solution determined by presolve;
+objective dual_svm = 0.
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -2.660092018e+22
+0 simplex iterations
+11 barrier iterations
+Setup time = 0.005544s
+Solver time = 0.012523s
+Total time = 0.018088s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 3E+22           2E+17         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 393.4066765
+0 simplex iterations
+28 barrier iterations
+Setup time = 2.591157s
+Solver time = 0.083371s
+Total time = 2.674551s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 85.4768461
+0 simplex iterations
+30 barrier iterations
+Setup time = 2.559488s
+Solver time = 0.292699s
+Total time = 2.852218s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -1.869680824e+22
+0 simplex iterations
+14 barrier iterations
+Setup time = 0.005494s
+Solver time = 0.013247s
+Total time = 0.018762s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 2E+22           1E+16         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 3882.239436
+0 simplex iterations
+26 barrier iterations
+Setup time = 2.572552s
+Solver time = 0.081093s
+Total time = 2.653666s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 435.8093304
+0 simplex iterations
+22 barrier iterations
+Setup time = 2.578237s
+Solver time = 0.252695s
+Total time = 2.830954s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: unknown solution status; objective -2.768555353e+20
+0 simplex iterations
+22 barrier iterations
+Setup time = 0.005675s
+Solver time = 0.019964s
+Total time = 0.025658s
+ 
+------------ WARNINGS ------------
+WARNING:  "Tolerance violations"
+  Type                         MaxAbs [Name]   MaxRel [Name]
+  objective(s)                 3E+20           4E+12         
+Documentation: mp.ampl.com/modeling-tools.html#automatic-solution-check.
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 38768.84308
+0 simplex iterations
+26 barrier iterations
+Setup time = 2.577214s
+Solver time = 0.085849s
+Total time = 2.663086s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+CPLEX 22.1.2:   alg:barrier
+  tech:timing = 1
+CPLEX 22.1.2: optimal solution; objective 2652.222705
+0 simplex iterations
+23 barrier iterations
+Setup time = 2.550612s
+Solver time = 0.251879s
+Total time = 2.802519s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+Almacenando resultados en .csv ...
+Almacenamiento de resultados completado con éxito en  reporte_svm_general_data.csv y reporte_svm_hyperplane_validation.csv
+Fin de batch.py

@@ -14,8 +14,8 @@ def generate_non_linear_data(num_samples:int,seed:int)->tuple[np.ndarray,np.ndar
 
 
 
-def compare_hyperplanes(w1:np.ndarray|list[float],gamma1:float,w2:np.ndarray|list[float],gamma2:float,tol:float= 1e-4)->tuple[bool,bool]:
-    """Devuelve (w1 == w2), (gamma1 == gamma2) con aproximacion de tol"""
+def compare_hyperplanes(w1:np.ndarray|list[float],gamma1:float,w2:np.ndarray|list[float],gamma2:float)->tuple[float,float]:
+    """Devuelve la diferencia entre w1 y w2, y entre gamma1 y gamma2. Para w1 y w2 devuelve -1. si se se produce un error."""
     if isinstance(w1, list):
         w1 = np.array(w1)
     if isinstance(w2, list):
@@ -23,13 +23,13 @@ def compare_hyperplanes(w1:np.ndarray|list[float],gamma1:float,w2:np.ndarray|lis
     same_size_w = len(w1) == len(w2)
 
     if same_size_w:
-        w1_eq_w2 = bool(np.all(np.abs(w1 - w2) <= tol))
+        w_diff = float(np.mean(np.abs(w1 - w2)))
     else:
-        w1_eq_w2 = same_size_w
+        w_diff = -1.
 
-    g1_eq_g2 = bool(np.abs(gamma1 - gamma2) <= tol)
+    g_diff = float(np.abs(gamma1 - gamma2))
 
-    return w1_eq_w2,g1_eq_g2
+    return w_diff,g_diff
 
 
 
@@ -52,14 +52,14 @@ def experiment_iteration(X_train:np.ndarray, X_test:np.ndarray, y_train:np.ndarr
     w_dual, gamma_dual = tl.recover_linear_hyperplane(X_train,y_train,lamb_dual,nu,tol)
     acc_train_dual = tl.calculate_accuracy_from_hyperplane(w_dual,gamma_dual,X_train,y_train)
     acc_test_dual = tl.calculate_accuracy_from_hyperplane(w_dual,gamma_dual,X_test,y_test)
-    w_eq,g_eq =compare_hyperplanes(w_prim,gamma_prim,w_dual,gamma_dual)
+    w_diff,g_diff =compare_hyperplanes(w_prim,gamma_prim,w_dual,gamma_dual)
     general_data.append({
         "Dataset": dataset, "Nu": nu, "Semilla": seed, "Modelo": "DualSinKernel",
         "Funcion_Objetivo": dual_obj, "Tiempo": time_dual,"Bar_iter":bar_opt_dual,
         "Accuracy_Train": acc_train_dual, "Accuracy_Test":acc_test_dual, "Num_exec":num_exec
     })
     hyperplane_validation.append({
-        "w_eq":w_eq, "g_eq":g_eq,"Dataset": dataset, "Nu": nu, "Num_exec":num_exec
+        "w_diff":w_diff, "g_diff":g_diff,"Dataset": dataset, "Nu": nu, "Num_exec":num_exec
     })
 
     #Dual con Kernel
