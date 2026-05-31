@@ -21,7 +21,7 @@ reporte_limpio_na <- df_svm %>%
     .groups = "drop"
   ) %>%
   
-  # CORRECCIÓN ESTÉTICA: Convertimos los 'NaN' (bloques que fallaron siempre) en NA limpios
+  # Convertimos los 'NaN' (bloques que fallaron siempre) en NA limpios
   mutate(
     Media_Tiempo   = ifelse(is.nan(Media_Tiempo), NA, Media_Tiempo),
     Media_Bar_iter = ifelse(is.nan(Media_Bar_iter), NA, Media_Bar_iter)
@@ -30,3 +30,24 @@ reporte_limpio_na <- df_svm %>%
 
 print(reporte_limpio_na)
 write_csv(reporte_limpio_na, "resumen_medias_svm_na.csv")
+
+# Leer el archivo CSV adjunto
+df_validacion <- read_csv("reporte_svm_hyperplane_validation.csv")
+
+# Calcular la tabla de medias agrupadas
+tabla_medias_validacion <- df_validacion %>%
+  # Agrupamos por el escenario (Dataset) y el hiperparámetro (Nu)
+  group_by(Dataset, Nu) %>%
+  # Calculamos las medias de las diferencias del hiperplano
+  summarise(
+    Media_w_diff = mean(w_diff, na.rm = TRUE),
+    Media_g_diff = mean(g_diff, na.rm = TRUE),
+    Num_Ejecuciones = n_distinct(Num_exec), # Valida que haya 3 ejecuciones por caso
+    .groups = "drop"
+  ) %>%
+  # Ordenamos el resultado para que sea fácil de analizar
+  arrange(Dataset, Nu)
+
+# Mostrar la tabla resultante en la consola
+print(tabla_medias_validacion)
+write_csv(tabla_medias_validacion, "resumen_medias_validacion_hiperplano.csv")
