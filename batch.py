@@ -1,142 +1,127 @@
 #Codigo para realizar las ejecuciones
 
-#Dual sin kernel, recordar que K = A*A^T, donde A es la matriz que tiene las xi en filas
-
-#asi que tanto con Kernel com sin kernel K tiene dimensiones m * m
-
-#Codigo para realizar las ejecuciones
-
-#Dual sin kernel, recordar que K = A*A^T, donde A es la matriz que tiene las xi en filas
-
-#asi que tanto con Kernel com sin kernel K tiene dimensiones m * m
 import pandas as pd
 import numpy as np
 import tools as tl
+from typing import Any
+from sklearn.datasets import make_moons #type:ignore
 
-# Configuración general de los experimentos solicitados
-valores_nu = [0.1, 1.0, 10.0, 100.0]
-semilla = 77214914
-resultados = []
+def generate_non_linear_data(num_samples:int,seed:int)->tuple[np.ndarray,np.ndarray]:
+    """Genera los datos no separables linealmente con make_moons() adaptado a clases 1 y -1"""
+    X,y = make_moons(n_samples=num_samples, noise=0.15, random_state=seed)
+    y = np.where(y == 0,-1,1)
+    return (X,y)
 
-# ==========================================
-# Dataset del Generador
-# ==========================================
-print("--- Iniciando Experimentos con Dataset del Generador ---")
-# Usamos tu función generator_preprocess pasándole la dimensión x=4 del enunciado
-X_gen_raw, y_gen_raw = tl.generator_preprocess("points_1000.dat", dim_x=4)
-X_gen, y_gen = np.array(X_gen_raw), np.array(y_gen_raw)
 
-for nu in valores_nu:
-    X_train, X_test, y_train, y_test = tl.split_dataset(X_gen, y_gen, test_size=0.3, seed=semilla)
-    
-    # Resolver Primal Lineal (Convertimos a lista para respetar el tipado estricto)
-    w_p, gam_p, _, obj_p, time_p = tl.primal_solve(X_train.tolist(), y_train.tolist(), "primal_svm.mod", nu)
-    acc_p = tl.calculate_accuracy_linear(X_test, y_test, w_p, gam_p)
-    
-    # Resolver Dual Lineal (Matriz de producto escalar K = X * X^T)
-    K_lineal_train = np.dot(X_train, X_train.T)
-    lamb_l, obj_l, time_l = tl.dual_solve(K_lineal_train, y_train.tolist(), "dual_svm.mod", nu)
-    
-    # Recuperar plano y verificar que coincide con el Primal
-    w_rec, gam_rec = tl.recover_linear_hyperplane(X_train, y_train, lamb_l, nu)
-    acc_l = tl.calculate_accuracy_linear(X_test, y_test, w_rec, gam_rec)
-    
-    resultados.append({
-        "Dataset": "Generador (Sintético)", "Nu": nu, "Semilla": seed, "Modelo": "Primal Lineal",
-        "Funcion_Objetivo": obj_p, "Tiempo": time_p, "Accuracy": acc_p
-    })
-    resultados.append({
-        "Dataset": "Generador (Sintético)", "Nu": nu, "Semilla": seed, "Modelo": "Dual Lineal",
-        "Funcion_Objetivo": obj_l, "Tiempo": time_l, "Accuracy": acc_l
-    })
 
-# ==========================================
-# Dataset Real (WDBC)
-# ==========================================
-print("\n--- Iniciando Experimentos con Dataset Real WDBC ---")
-X_wdbc, y_wdbc = tl.process_wdbc("wdbc.data")
+def compare_hyperplanes(w1:np.ndarray|list[float],gamma1:float,w2:np.ndarray|list[float],gamma2:float,tol:float= 1e-4)->tuple[bool,bool]:
+    """Devuelve (w1 == w2), (gamma1 == gamma2) con aproximacion de tol"""
+    if isinstance(w1, list):
+        w1 = np.array(w1)
+    if isinstance(w2, list):
+        w2 = np.array(w2)
+    same_size_w = len(w1) == len(w2)
 
-for nu in valores_nu:
-    X_train, X_test, y_train, y_test = tl.split_dataset(X_wdbc, y_wdbc, test_size=0.3, seed=semilla)
-    
-    # Primal Lineal
-    w_p, gam_p, _, obj_p, time_p = tl.primal_solve(X_train.tolist(), y_train.tolist(), "primal_svm.mod", nu)
-    acc_p = tl.calculate_accuracy_linear(X_test, y_test, w_p, gam_p)
-    
-    # Dual Lineal 
-    K_lineal_train = np.dot(X_train, X_train.T)
-    lamb_l, obj_l, time_l = tl.dual_solve(K_lineal_train, y_train.tolist(), "dual_svm.mod", nu)
-    w_rec, gam_rec = tl.recover_linear_hyperplane(X_train, y_train, lamb_l, nu)
-    acc_l = tl.calculate_accuracy_linear(X_test, y_test, w_rec, gam_rec)
-    
-    # Dual con Kernel Gaussiano RBF (No Lineal)
-    # Calculamos la matriz de Kernel RBF para Train usando tu función
-    K_rbf_train = tl.compute_gaussian_kernel(X_train, X_train, sigma_sq=None)
-    lamb_rbf, obj_rbf, time_rbf = tl.dual_solve(K_rbf_train, y_train.tolist(), "dual_svm.mod", nu)
-    acc_rbf = tl.calculate_accuracy_rbf(X_train, y_train, X_test, y_test, lamb_rbf, nu, sigma_sq=None)
-    
-    resultados.append({
-        "Dataset": "WDBC (Real)", "Nu": nu, "Semilla": seed, "Modelo": "Primal Lineal",
-        "Funcion_Objetivo": obj_p, "Tiempo": time_p, "Accuracy": acc_p
-    })
-    resultados.append({
-        "Dataset": "WDBC (Real)", "Nu": nu, "Semilla": seed, "Modelo": "Dual Lineal",
-        "Funcion_Objetivo": obj_l, "Tiempo": time_l, "Accuracy": acc_l
-    })
-    resultados.append({
-        "Dataset": "WDBC (Real)", "Nu": nu, "Semilla": seed, "Modelo": "Dual RBF (Gaussiano)",
-        "Funcion_Objetivo": obj_rbf, "Tiempo": time_rbf, "Accuracy": acc_rbf
+    if same_size_w:
+        w1_eq_w2 = bool(np.all(np.abs(w1 - w2) <= tol))
+    else:
+        w1_eq_w2 = same_size_w
+
+    g1_eq_g2 = bool(np.abs(gamma1 - gamma2) <= tol)
+
+    return w1_eq_w2,g1_eq_g2
+
+
+
+def experiment_iteration(X_train:np.ndarray, X_test:np.ndarray, y_train:np.ndarray, y_test:np.ndarray,seed:int,dataset:str,nu:float,num_exec:int,general_data: list[dict[str,Any]],hyperplane_validation: list[dict[str,Any]],tol:float= 1e-4,test_size:float=0.3,sigma_sq:float|None=None)->None:
+    """Realiza una iteracion de un solve Primal, Dual sin Kernel, Dual con kernel y alamacena los resultados en general_data y hyperplane_validation"""
+
+    #Primal
+    w_prim,gamma_prim,s,primal_obj,time_prim, bar_opt_primal = tl.primal_solve(X_train.tolist(),y_train.tolist(),"primal_svm.mod",nu)
+    acc_train_primal = tl.calculate_accuracy_from_hyperplane(w_prim,gamma_prim,X_train,y_train)
+    acc_test_primal = tl.calculate_accuracy_from_hyperplane(w_prim,gamma_prim,X_test,y_test)
+    general_data.append({
+        "Dataset": dataset, "Nu": nu, "Semilla": seed, "Modelo": "Primal",
+        "Funcion_Objetivo": primal_obj, "Tiempo": time_prim,"Bar_iter":bar_opt_primal,
+        "Accuracy_Train": acc_train_primal, "Accuracy_Test":acc_test_primal, "Num_exec":num_exec
     })
 
-# ==========================================
-# Dataset NO SEPARABLE Linealmente (Moons / Círculos)
-# ==========================================
-print("\n--- Iniciando Experimentos con Dataset NO SEPARABLE ---")
-from sklearn.datasets import make_moons
-
-# Generamos 1000 puntos en forma de dos lunas entrelazadas
-X_ns_raw, y_ns_raw = make_moons(n_samples=1000, noise=0.15, random_state=77214914)
-y_ns_raw = np.where(y_ns_raw == 0, -1.0, 1.0)
-
-for nu in valores_nu:
-    X_train, X_test, y_train, y_test = tl.split_dataset(X_ns_raw, y_ns_raw, test_size=0.3, seed=semilla)
-    
-    # Intentar resolver con DUAL LINEAL (Sin Kernel)
-    K_lineal_train = np.dot(X_train, X_train.T)
-    lamb_l, obj_l, time_l = tl.dual_solve(K_lineal_train, y_train.tolist(), "dual_svm.mod", nu)
-    
-    # Recuperar el plano lineal para calcular la accuracy lineal
-    w_rec_l, gam_rec_l = tl.recover_linear_hyperplane(X_train, y_train, lamb_l, nu)
-    acc_l = tl.calculate_accuracy_linear(X_test, y_test, w_rec_l, gam_rec_l)
-    
-    # Resolver con DUAL RBF (Con Kernel Gaussiano)
-    K_rbf_train = tl.compute_gaussian_kernel(X_train, X_train, sigma_sq=None)
-    lamb_rbf, obj_rbf, time_rbf = tl.dual_solve(K_rbf_train, y_train.tolist(), "dual_svm.mod", nu)
-    
-    # Pasamos lamb_rbf directamente a calculate_accuracy_rbf, que clasifica usando únicamente la matriz de Kernel.
-    acc_rbf = tl.calculate_accuracy_rbf(X_train, y_train, X_test, y_test, lamb_rbf, nu, sigma_sq=None)
-    
-    # Guardar en la estructura global de resultados
-    resultados.append({
-        "Dataset": "No Separable (Moons)", "Nu": nu, "Modelo": "Dual Lineal (Sin Kernel)",
-        "Funcion_Objetivo": obj_l, "Tiempo": time_l, "Accuracy": acc_l
+    #Dual Sin Kernel
+    k_lineal = np.matrix(X_train) * np.transpose(np.matrix(X_train))
+    lamb_dual, dual_obj,time_dual , bar_opt_dual= tl.dual_solve(k_lineal,y_train.tolist(),"dual_svm.mod",nu)
+    w_dual, gamma_dual = tl.recover_linear_hyperplane(X_train,y_train,lamb_dual,nu,tol)
+    acc_train_dual = tl.calculate_accuracy_from_hyperplane(w_dual,gamma_dual,X_train,y_train)
+    acc_test_dual = tl.calculate_accuracy_from_hyperplane(w_dual,gamma_dual,X_test,y_test)
+    w_eq,g_eq =compare_hyperplanes(w_prim,gamma_prim,w_dual,gamma_dual)
+    general_data.append({
+        "Dataset": dataset, "Nu": nu, "Semilla": seed, "Modelo": "DualSinKernel",
+        "Funcion_Objetivo": dual_obj, "Tiempo": time_dual,"Bar_iter":bar_opt_dual,
+        "Accuracy_Train": acc_train_dual, "Accuracy_Test":acc_test_dual, "Num_exec":num_exec
     })
-    resultados.append({
-        "Dataset": "No Separable (Moons)", "Nu": nu, "Modelo": "Dual RBF (Con Kernel)",
-        "Funcion_Objetivo": obj_rbf, "Tiempo": time_rbf, "Accuracy": acc_rbf
+    hyperplane_validation.append({
+        "w_eq":w_eq, "g_eq":g_eq,"Dataset": dataset, "Nu": nu, "Num_exec":num_exec
     })
 
-# ==========================================
-# 3. Procesamiento y Exportación de Resultados (Corregido para 1 Semilla)
-# ==========================================
-df_resumen = pd.DataFrame(resultados)
+    #Dual con Kernel
+    k_rbf = tl.compute_gaussian_kernel(X1=X_train,sigma_sq=sigma_sq)
+    lamb_rbf, rbf_obj,time_rbf , bar_opt_rbf= tl.dual_solve(k_rbf,y_train.tolist(),"dual_svm.mod",nu)
+    acc_train_rbf = tl.calculate_accuracy_dual_rbf(k_rbf,lamb_rbf,X_train,y_train,X_train,y_train,nu,sigma_sq,tol)
+    acc_test_rbf = tl.calculate_accuracy_dual_rbf(k_rbf,lamb_rbf,X_train,y_train,X_test,y_test,nu,sigma_sq,tol)
+    general_data.append({
+        "Dataset": dataset, "Nu": nu, "Semilla": seed, "Modelo": "DualRBF",
+        "Funcion_Objetivo": rbf_obj, "Tiempo": time_rbf,"Bar_iter":bar_opt_rbf,
+        "Accuracy_Train": acc_train_rbf, "Accuracy_Test":acc_test_rbf, "Num_exec":num_exec
+    })
 
-# Como usas una única semilla, quitamos la columna 'Semilla' si existiera y guardamos los datos directamente.
-# Así evitamos el .agg(["mean", "std"]) que generaba columnas llenas de NaNs/vacías.
-if "Semilla" in df_resumen.columns:
-    df_resumen = df_resumen.drop(columns=["Semilla"])
 
-# Guardamos el archivo CSV final listo para la memoria
-df_resumen.to_csv("reporte_final_svm.csv", index=False)
-print("\n¡Todos los experimentos completados con éxito!")
-print("Resultados consolidados guardados en 'reporte_final_svm.csv'.")
+
+def experiments(valores_nu:list[float],datasets:list[str],seed:int,num_exec:int,general_data: list[dict[str,Any]],hyperplane_validation: list[dict[str,Any]],tol:float= 1e-4,test_size:float=0.3,sigma_sq:float|None=None)->None:
+    """Ejecuta un experimento por cada nu y por cada dataset"""
+    for dataset in datasets:
+            if dataset.isdigit():
+                X,y = generate_non_linear_data(int(dataset),seed)
+                name_dataset:str = f"Moons_{dataset}"
+            elif dataset == "wdbc.data":
+                X,y = tl.process_wdbc(dataset)
+                name_dataset = "WDBC"
+            else:
+                X,y = tl.generator_preprocess(dataset,4) #type:ignore
+                #en este caso es una list[float], pero split ya lo convertira a numpy
+                name_dataset = f"P{dataset[1:len(dataset)-4]}"
+            X_train, X_test, y_train, y_test = tl.split_dataset(X,y,test_size,seed)
+            
+            for nu in valores_nu:
+                experiment_iteration(X_train, X_test, y_train, y_test,seed,name_dataset,nu,num_exec,general_data,hyperplane_validation,tol,test_size,sigma_sq)
+
+                
+        
+
+
+
+
+
+
+def store_data(general_data: list[dict[str,Any]],hyperplane_validation: list[dict[str,Any]])->None:
+    """Almacena los resultados en reporte_svm_general_data.csv y reporte_svm_hyperplane_validation.csv"""
+
+    general_data_df = pd.DataFrame(general_data)
+    hyperplane_validation_df = pd.DataFrame(hyperplane_validation)
+    print("Almacenando resultados en .csv ...")
+    general_data_df.to_csv("reporte_svm_general_data.csv", index=False)
+    hyperplane_validation_df.to_csv("reporte_svm_hyperplane_validation.csv",index=False)
+    print("Almacenamiento de resultados completado con éxito en  reporte_svm_general_data.csv y reporte_svm_hyperplane_validation.csv")
+    print("Fin de batch.py")
+
+def main()->None:
+    valores_nu:list[float] = [0.01,0.1, 0., 1.0, 10.0, 100.0]
+    datasets:list[str] = ["points_100.dat","points_1000.dat","points_2000.dat","wdbc.data","100","1000","2000"] #los ultimos casos son para swiss_roll, "points_5000.dat","5000"
+    semilla:int = 77214914
+    num_iters:int = 3 #numero de repeticion de los experimentos
+    general_data: list[dict[str,Any]] = []
+    hyperplane_validation: list[dict[str,Any]] = []
+    for i in range(num_iters):
+        print(f"==============Iteración {i+1}/{num_iters}==============")
+        experiments(valores_nu,datasets,semilla,i+1,general_data,hyperplane_validation)
+    store_data(general_data,hyperplane_validation)
+
+main()
